@@ -15,9 +15,9 @@
 //调用twikoo最新评论主函数
 function newcomment() {
     twikoo.getRecentComments({
-        envId: '你的腾讯云环境id', // 环境 ID
-        pageSize: 7, // 获取多少条，默认：10，最大：100
-        includeReply: false // 是否包括最新回复，默认：false
+        envId: 'https://twikoo.wndbac.cn', // 环境 ID
+        pageSize: 5, // 获取多少条，默认：10，最大：100
+        includeReply: true // 是否包括最新回复，默认：false
     }).then(function (res) {
         console.log(res);
         var hotComments = $("#hot-comments");
