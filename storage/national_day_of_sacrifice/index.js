@@ -59,7 +59,7 @@ document.onkeydown = document.onkeyup = document.onkeypress = function (event) {
   if ((e.ctrlKey == true && (e.keyCode == 116)) || (e.ctrlKey == true && e.shiftKey == true && e.keyCode == 82) || (e.shiftKey == true && e.keyCode == 116) || (e.ctrlKey == true && e.shiftKey == true && e.keyCode == 116)) {
     e.keyCode = 0;
     e.returnValue = false;
-    VolantisApp.message('哒咩哒咩！', '请不要强制刷新页面！因为本网站使用clientworker，所以强制刷新对您的访问体验是非常非常不好的！！所以请按下f12，或者鼠标右键点击检查，在"应用程序"-"存储"中，选择"清除网站数据"来清理缓存哦！谢谢！');
+    VolantisApp.message('停止操作！', '请不要强制刷新页面！因本站使用ClientWorker，所以强制刷新对您的访问体验十分不好！您可以通过按下F12，或者鼠标右键点击检查，在"应用程序"-"存储"中，选择"清除网站数据"来清理缓存。');
   }
 };
 /* $(document).keydown(function (e) {
