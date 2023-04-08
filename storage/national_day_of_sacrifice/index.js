@@ -1,18 +1,3 @@
-/* * customized javascript file  */
-
-/** */
-/* ____ ___ ____      _    ___  ____  
- / ___|_ _|  _ \    / \  / _ \/ ___| 
-| |    | || |_) |  / _ \| | | \___ \ 
-| |___ | ||  _ <  / ___ \ |_| |___) |
- \____|___|_| \_\/_/   \_\___/|____/  */
-
-console.log("   ____ ___ ____      _    ___  ____\n",
-             " / ___|_ _|  _ \\    / \\  / _ \\/ ___|\n",
-             "| |    | || |_) |  / _ \\| | | \\___ \\ \n",
-             "| |___ | ||  _ <  / ___ \\ |_| |___) |\n",
-             " \\____|___|_| \\_\\/_/   \\_\\___/|____/ six six six!!!!\n");
-
 /* * 公祭日自动变灰 */
 if (PublicSacrificeDay()) {
   document.getElementsByTagName("html")[0].setAttribute("style", "filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");
